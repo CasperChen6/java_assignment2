@@ -1,0 +1,40 @@
+.root {
+    -fx-background-color: #f0f0f0;
+    -fx-font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.title-label {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+}
+
+.lookup-button, .back-button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 8px 16px;
+    -fx-border-radius: 5px;
+}
+
+.lookup-button:hover, .back-button:hover {
+    -fx-background-color: #45a049;
+}
+
+.text-field {
+    -fx-pref-width: 300px;
+    -fx-font-size: 14px;
+    -fx-padding: 5px;
+}
+
+.info-box {
+    -fx-background-color: white;
+    -fx-padding: 15px;
+    -fx-border-radius: 5px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 10, 0, 0, 0);
+}
+
+.info-box .label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333;
+}
